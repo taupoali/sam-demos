@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: 'My SAM App
+
+  An easy to follow tutorial on SAM
+
+  '
+Resources:
+  S3Bucket:
+    Type: AWS::S3::Bucket
